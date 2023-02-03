@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css file link -->
+    <!-- <link rel="stylesheet" href="portfolio.css"> -->
+    <!-- bootstarp cdn link -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <style>
+        body{
+            background-color: rgb(31, 141, 215);
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,500;1,600&display=swap');
+
+
+
+.intro{
+    height: 45rem;
+   
+    background: url(me.jpeg) no-repeat;
+    width: 100%;
+}
+.intro nav{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.intro nav a button{
+    height: 3rem;
+    width: 8rem;
+    color: black;
+    font-weight: bold;
+    font-family: 'Poppins';
+
+}
+nav{
+    position:fixed;
+    opacity: 0.8;
+}
+.intro nav a button:hover{
+    background-color: rgb(0, 157, 255);
+    color: #fff;
+    box-shadow: 1px 1px 1px 1px;
+}
+.name{
+    position: absolute;
+    top: 20rem;
+    left: 60rem;
+    color: #fff;
+    font-weight: bolder;
+    font-family: 'Poppins';
+}
+.Aboutme h3{
+    color: #fff;
+    font-weight: bold;
+    
+}
+.Aboutme img{
+    height: 30rem;
+    width: 30rem;
+}
+.Aboutme .abt{
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+}
+.Aboutme .abt h3{
+    font-weight: bold;
+}
+.Aboutme .abt h3,p{
+    position: relative;
+    top: 8rem;
+    color: #fff;
+    font-family: 'Poppins';
+}
+.table img{
+    height: 15rem;
+    width: 15rem;
+}
+.projects h3{
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+h3{
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+li{
+    font-family: 'Poppins';
+    
+}
+.card:hover{
+    background-color: rgb(0, 157, 255);
+    color: #fff;
+}
+.card .card-body .card-title{
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+.Skills h3{
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+.contact h3{
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+    </style>
+</head>
+
+<body>
+    <section class="intro" id="home">
+        <div class="container">
+            <nav class="row" >
+                
+                <a href="#home" class="col-1"><button class="btn ">Home</button></a>
+                <a href="#About me" class="col-1"><button class="btn btn-outline-black">About me</button></a>
+                <a href="#projects" class="col-1"><button class="btn btn-outline-black">Projects</button></a>
+                <a href="#skills" class="col-1"><button class="btn btn-outline-black">Skills</button></a>
+                <a href="#contact" class="col-1"><button class="btn btn-outline-black">Contact me</button></a>
+            </nav>
+            <div class=" row name">
+                
+                <h1 class="display-3 col-12-md"> I'm Thanusri Allu</h1>
+             
+            </div>
+            
+        </div>
+        
+    </section>
+    <br>
+    <br>
+    <!-- About me section start -->
+    <section class="Aboutme" id="About me">
+        <h3 class="display-2" align="center">About Me</h3>
+        <br>
+        <div class="abt">
+            <img src="img/person.png" alt="">
+            <div class="me">
+                <h3 class="display-6">Thanusri Allu</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eligendi quae id numquam? Expedita recusandae cupiditate, harum ad sed alias delectus ratione odio animi. Beatae, explicabo ducimus! Error sapiente suscipit voluptatum molestiae consequatur tempora quos eos ea quidem omnis, ut praesentium maxime provident iste minus eaque vitae illo expedita in. Sapiente asperiores expedita fugiat repellat, consectetur porro unde repudiandae incidunt.</p>
+                </div>
+        </div>
+
+    </section>
+    <br><br><br><br><br>
+    <section class="projects" id="projects">
+        <h3 class="display-2" align="center">Projects</h3>
+        <br>
+        <table class="table table-bordered" style="height: 40rem;width:50rem ;margin:0 25rem">
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="img/img2.jpg" alt="">
+                    </td>
+                    <td>
+                        <h2>GitHub API project</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eius vero consequatur enim, ea explicabo praesentium.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>e-commerce project</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quisquam placeat illum numquam deserunt sit eum?</p>
+                    </td>
+                    <td>
+                        <img src="img/img3.png" alt="">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <br><br><br>
+    <!-- serviecs section starts here-->
+    <section class="Skills row" id="skills">
+        <h3 class="display-2" align="center">Skills</h3>
+        <br>
+        <div class="col-2"></div>
+    <div class="card col-md-3">
+        <div class="card-body">
+            <div class="card-title h5">
+                Front End Web Development
+            </div>
+            <ul >
+                <li>
+                    HTML 
+                </li>
+                <li>
+                    CSS 
+                </li>
+                <li>
+                    JavaScript
+                </li>
+                <li>
+                    Bootstap 
+                </li>
+                <li>
+                    Figma
+                </li>
+            </ol>
+        </div>
+    </div>     
+    <div class="col-2"></div>   
+    <div class="card col-md-3">
+        <div class="card-body">
+            <div class="card-title h5">
+                Programming
+            </div>
+            <ul >
+                <li>
+                    Python 
+                </li>
+                <li>
+                    Java 
+                </li>
+                <li>
+                    C
+                </li>
+            </ol>
+        </div>
+    </div>
+    
+        <div class="row">
+            <div class="col-5"></div>
+            
+                <div class="card col-3">
+
+                    <div class="card-body">
+                        <div class="card-title h5">
+                            UX Desigining
+                        </div>
+                        <ul >
+                            <li>
+                                low fedility wireframes
+                            </li>
+                            <li>
+                                Wireframes.cc 
+                            </li>
+                            <li>
+                                Figma
+                            </li>
+                        </ol>
+                    </div>
+                </div> 
+      
+          
+            
+         
+    </div>
+    <br><br><br><br>
+    
+    
+    </section>
+<br><br> <br><br><br>
+    <!-- contact section starts here -->
+    <section class="contact" id="contact">
+        <h3 class="display-2" align="center">Contact me</h3>
+        <br>
+        <div class="row">
+            <div class="col-5"></div>
+            <div class="col-3"><input type="email" name="" id="" class="form-control" placeholder="Enter your email here"></div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-5"></div>
+            <div class="col-3 "><input type="text" name="" id="" class="form-control" placeholder="Enter your name  here"></div>
+        </div> <br><br>
+        <div class="row">
+            <div class="col-5"></div>
+            <div class="col-3">
+                <textarea name="" id="" cols="3" rows="10" class=" form-control" placeholder="Enter your Message"></textarea>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
